@@ -1,0 +1,86 @@
+body {
+ margin: 0px;
+ padding: 0px;
+position: absolute;
+background-color: #D6E4E5;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  color: pink;
+  border-width: 5px;
+  width: 5%;
+}
+h2 {
+  color: rebeccapurple;
+  text-align: center;
+}
+.myphoto{
+  width: 150px; 
+height: 160px; 
+overflow: hidden;
+border-radius: 50%;
+margin: 25px 10px 10px 30px;
+}
+.introduction{
+  padding: 20px;
+}
+.nav{
+display:flex;
+background-color: yellowgreen;
+padding-right: 20vh;
+position: fixed;
+}
+.lists{
+  padding: 5px;
+  margin-left: 34vh;
+  color: antiquewhite;
+  text-decoration: none;
+}
+table{
+  position: relative;
+  z-index: -1;
+  top:10vh;
+}
+.view{
+  display: none;
+  text-align: center;
+}
+.mail:hover + .view {
+  display: block;
+}
+.techskills{
+  padding: 20px;
+  margin: 30px;
+}
+.skillsName{
+  padding: 20px;
+  margin: 20px;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 5px;
+  border-radius: 30px;
+}
+.skillLayout{
+  display: flex;
+  justify-content: center;
+}
+a{
+  padding: 10px;
+  margin: 20px;
+}
+.mail{
+  text-align: center;
+}
+.contactLayout{
+  text-align: center;
+}
+.photo{
+  margin: 40px;
+}
+.cetrificateLayout{
+  margin: 10vh 10vh ;
+}
+.cetri{
+  margin: 3px;
+}
